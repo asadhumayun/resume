@@ -1,0 +1,12 @@
+version: '3'
+
+tasks:
+  build:
+    desc: Generates your CV.
+    cmds:
+      - docker compose run --rm rendercv render {{.RESUME}}
+
+  create_new_blank_resume:
+    desc: Creates a new, blank resume template.
+    cmds:
+      - docker compose run --rm rendercv new "{{.NAME}}" --theme "engineeringresumes"

@@ -1,0 +1,4 @@
+rendercv_output
+.mypy_cache/
+.venv/
+node_modules/

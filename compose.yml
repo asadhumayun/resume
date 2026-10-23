@@ -1,0 +1,6 @@
+services:
+  rendercv:
+    build:
+      context: containers/rendercv
+    volumes:
+      - .:/cv:rw

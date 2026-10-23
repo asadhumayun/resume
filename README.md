@@ -7,8 +7,11 @@
 To run this, you will need Docker, Docker Compose, and Taskfile installed:
 
 Docker          - [Install](https://docs.docker.com/desktop/)
+
 Docker Compose  - [Install](https://docs.docker.com/compose/install/)
+
 Taskfile        - [Install](https://taskfile.dev/docs/installation)
+
 
 ## Build your CV
 
